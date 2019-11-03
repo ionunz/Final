@@ -1,3 +1,168 @@
+*{
+    box-sizing: border-box;
+}
+
 header{
-    background-color: magenta;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 70px;
+    padding: 0 1em;
+    background-color:magenta;
+}
+
+header .cuadro .logo{
+    height: 100%;
+}
+
+header nav{
+    font-size: 0.9rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    padding: 10px;
+}
+
+.desktop-menu{
+    display: none;
+}
+
+.desktop-menu ul{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.desktop-menu li{
+    padding: 0 0.5em;
+    text-align: center;
+}
+
+.desktop-menu a{
+    text-decoration: none;
+}
+
+@media (min-width: 768px){
+    .desktop-menu{
+      display: block;
+        }
+}
+
+.home1{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-blend-mode: multiply;
+}
+
+.home1 h2{
+    margin-top: 0;
+    margin-bottom: 0.2em;
+}
+
+.home1 h3{
+    margin: 0;
+    }
+      
+.home1 .callToAction{
+    margin: 2em auto 0;
+    text-transform: capitalize;
+    font-weight: bold;
+    display: block;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-shadow: none;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 90vw;
+    max-width: 300px;
+    }
+
+.us{
+    min-height: 100vh;
+    text-align: center;
+    background-size: cover;
+    padding-top: 80px;
+}
+      
+.us h2{
+    margin: 1em auto;
+    width: 70vw;
+    text-align: left;
+}
+
+.us p{
+    margin: 1em auto;
+    width: 70vw;
+    text-align: left;
+}
+
+.history{
+    min-height: 100vh;
+    text-align: center;
+    background-size: cover;
+    padding-top: 80px;
+}
+
+.history h2{
+    margin: 1em auto;
+    width: 70vw;
+    text-align: left;
+}
+
+.history p{
+    margin: 1em auto;
+    width: 70vw;
+    text-align: left;
+}
+
+.brands{
+    min-height: 100vh;
+    text-align: center;
+    background-size: cover;
+    padding-top: 80px;
+}
+
+.brands h2{
+    margin: 1em auto;
+    width: 70vw;
+    text-align: left;
+}
+
+.brands p{
+    margin: 1em auto;
+    width: 70vw;
+    text-align: left;
+}
+
+.brands ul{
+    list-style-type: none;
+    margin: 1em auto;
+    padding: 0;
+    width: 70vw;
+}
+
+.contact{
+    min-height: 100vh;
+    text-align: center;
+    background-size: cover;
+    padding-top: 80px;
+}
+
+.contact h2{
+    margin: 1em auto;
+    width: 70vw;
+    text-align: left;
+}
+
+.contact p{
+    margin: 1em auto;
+    width: 70vw;
+    text-align: left;
 }
