@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding; 0;
+    padding: 0;
 }
 
 header{
@@ -146,7 +146,7 @@ hr{
     font-size: 14px;
     font-weight: normal;
     line-height: 24px;
-    color: rgb(180, 180, 180);
+    color: rgb(170, 170, 170);
 }
 
 .back3{
@@ -219,12 +219,11 @@ hr{
     margin: 1em auto;
     padding: 0;
     width: 100vw;
-    display: flex;
     align-items: center;
 }
 
 .brands1 ul li img{
-    height: 200px;
+    height: 300px;
     padding: 10px;
 }
 
